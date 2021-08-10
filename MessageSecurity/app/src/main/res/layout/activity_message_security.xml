@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MessageSecurity">
+
+    <TextView
+        android:id="@+id/txvKey"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:text="Key:"
+        android:textSize="18dp"
+        android:layout_marginTop="1in"
+        android:layout_marginLeft="0.3in"/>
+
+    <EditText
+        android:id="@+id/edtxKey"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:textSize="18dp"
+        android:hint="KeyWord"
+        android:layout_marginLeft="0.6in"
+        android:layout_marginTop="0.95in"/>
+
+    <EditText
+        android:id="@+id/edtx1"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:textSize="18dp"
+        android:hint="Tin Nhắn Cần Mã Hóa"
+        android:layout_marginTop="1.25in"
+        android:layout_marginLeft="0.6in"/>
+
+    <TextView
+        android:id="@+id/txv1"
+        android:layout_width="84dp"
+        android:layout_height="30dp"
+        android:text="Tin Nhắn:"
+        android:textSize="18dp"
+        android:layout_marginTop="1.3in"
+        android:layout_marginLeft="0.05in"/>
+
+    <EditText
+        android:id="@+id/edtx2"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:textSize="18dp"
+        android:hint="Tin Nhắn Đã Mã Hóa"
+        android:layout_marginTop="1.55in"
+        android:layout_marginLeft="0.6in"/>
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="84dp"
+        android:layout_height="30dp"
+        android:text="  Mã Hóa:"
+        android:textSize="18dp"
+        android:layout_marginTop="1.6in"
+        android:layout_marginLeft="0.05in"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Mã Hóa "
+        android:layout_marginTop="1.9in"
+        android:layout_marginLeft="0.6in" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Đặt Lại"
+        android:shadowColor="@color/black"
+        android:layout_marginTop="1.9in"
+        android:layout_marginLeft="1.40in"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="Chuyển Sang Giải Hóa"
+        android:layout_marginTop="2.3in"
+        android:layout_marginLeft="0.72in"/>
+</RelativeLayout>
